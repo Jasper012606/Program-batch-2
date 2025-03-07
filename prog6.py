@@ -1,0 +1,2 @@
+#A program that asks the user to input 10 numbers and prints the result when the first number is subtracted by the remaining numbers
+print("Result: ", int(input("Enter a number: ")) - sum((int(input("Enter a number: ")) for i in range(9)))) 
